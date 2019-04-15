@@ -1,6 +1,6 @@
 Package: projects
 Title: A Project Infrastructure for Researchers
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     c(person(given = "Nik",
              family = "Krieger",
@@ -32,10 +32,10 @@ Collate: 'set_generics.R' 'class-projects_author.R'
         'setup.R' 'update.R' 'utilities.R' 'utils-pipe.R'
         'validation.R' 'zzz.R'
 NeedsCompilation: no
-Packaged: 2019-04-15 11:31:56 UTC; kriegen
+Packaged: 2019-04-15 16:07:51 UTC; kriegen
 Author: Nik Krieger [aut, cre],
   Adam Perzynski [aut],
   Jarrod Dalton [aut]
 Maintainer: Nik Krieger <nk@case.edu>
 Repository: CRAN
-Date/Publication: 2019-04-15 11:52:43 UTC
+Date/Publication: 2019-04-15 18:12:40 UTC
