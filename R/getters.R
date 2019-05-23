@@ -13,7 +13,7 @@
 #'
 #' If it can't find a directory with that path, it returns this string:
 #'
-#' \code{"projects" folder not found. Please run \link{setup_projects}()}
+#' \code{projects folder not found. Please run \link{setup_projects}()}
 #'
 #' @examples
 #' projects_folder()
@@ -31,7 +31,7 @@ get_p_path <- function(error = TRUE) {
     path
   }
   else {
-    notice <- '"projects" folder not found. Please run setup_projects()'
+    notice <- 'projects folder not found. Please run setup_projects()'
     if (error) {
       stop(notice)
     }
@@ -286,7 +286,8 @@ projects <- function(project,
       dplyr::rename("author_id" = "id2")
   }
 
-  projects_table <- dplyr::arrange(projects_table, .data$id)
+  projects_table <- projects_table %>%
+    dplyr::arrange(dplyr::desc(.data$stage), .data$id)
 
   if (!verbose) {
     projects_table <- projects_table %>%
