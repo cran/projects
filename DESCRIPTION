@@ -1,6 +1,6 @@
 Package: projects
 Title: A Project Infrastructure for Researchers
-Version: 1.3.0
+Version: 2.0.0
 Authors@R: 
     c(person(given = "Nik",
              family = "Krieger",
@@ -19,24 +19,26 @@ Description: Provides a project infrastructure with a focus on
 License: MIT + file LICENSE
 URL: https://www.github.com/NikKrieger/projects
 Depends: R (>= 3.4.0)
-Imports: dplyr (>= 0.8.0.1), fs (>= 1.2.6), magrittr (>= 1.5), methods,
-        purrr (>= 0.2.5), readr (>= 1.1.1), rlang (>= 0.3.4),
-        rstudioapi (>= 0.7), sessioninfo (>= 1.1.1), stringr (>=
-        1.3.1), tibble (>= 2.0.1), zip (>= 2.0.2)
-Suggests: here (>= 0.1), tidyverse (>= 1.2.1)
+Imports: dplyr (>= 0.8.0.1), fs (>= 1.2.6), lubridate (>= 1.7.4),
+        magrittr (>= 1.5), methods, purrr (>= 0.2.5), readr (>= 1.1.1),
+        rlang (>= 0.3.4), rstudioapi (>= 0.7), sessioninfo (>= 1.1.1),
+        stringr (>= 1.3.1), tibble (>= 2.0.1), zip (>= 2.0.2)
+Suggests: forcats, here (>= 0.1), testthat (>= 2.1.0), tidyverse (>=
+        1.2.1)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 6.1.1.9000
 Collate: 'set_generics.R' 'class-projects_author.R'
-        'class-projects_stage.R' 'new.R' 'edit.R' 'file_management.R'
-        'getters.R' 'header.R' 'metadata_manipulation.R' 'projects.R'
-        'reproducibility.R' 'setup.R' 'update.R' 'utilities.R'
-        'utils-pipe.R' 'validation.R' 'zzz.R'
+        'class-projects_stage.R' 'new.R' 'edit.R' 'email_authors.R'
+        'file_management.R' 'getters.R' 'header.R'
+        'metadata_manipulation.R' 'projects.R' 'reproducibility.R'
+        'setup.R' 'update.R' 'utilities.R' 'utils-pipe.R'
+        'validation.R' 'zzz.R'
 NeedsCompilation: no
-Packaged: 2019-05-23 16:18:04 UTC; kriegen
+Packaged: 2019-09-05 15:59:55 UTC; kriegen
 Author: Nik Krieger [aut, cre],
   Adam Perzynski [aut],
   Jarrod Dalton [aut]
 Maintainer: Nik Krieger <nk@case.edu>
 Repository: CRAN
-Date/Publication: 2019-05-23 17:20:03 UTC
+Date/Publication: 2019-09-05 16:10:03 UTC
