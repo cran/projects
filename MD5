@@ -1,9 +1,9 @@
-3fe40df39d05c430618731896e8ade5d *DESCRIPTION
+056b803efa70ae3df6b5cf6c85d14e29 *DESCRIPTION
 050a727c0d7132aa55397eadb6578a94 *LICENSE
 960b8b5c9f35d52ff41592b27a91668d *NAMESPACE
-e147eebf523bc146bde23e4b2cfa9249 *NEWS.md
-4dee023879919f49ca518a3be5aa2425 *R/class-projects_author.R
-c5a96b6ab123cc5bf1b55a8a1f21ebdb *R/class-projects_stage.R
+9054851f9f41b1d02790b103b65a6846 *NEWS.md
+e3e1084a6366e19e7d2a7eb41db5e949 *R/class-projects_author.R
+3488e7293da28bad4fd39adf3ca1307b *R/class-projects_stage.R
 e621b2c8596eba6cf14a59d3c82734f9 *R/edit.R
 3ad60ac07ee7807501443396de35062c *R/email_authors.R
 03e285161d986f3425f33a8ce77342d0 *R/file_management.R
